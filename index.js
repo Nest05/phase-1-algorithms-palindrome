@@ -17,14 +17,19 @@ console.log('Expecting:true');
 console.log('=>', isPalindrome('mom'));
 
 /* 
-  Turn input (word) to lower case .toLowerCase()
+Pseudocode:
+  Turn input (word) to lower case 
 
-   Reverse the string .split().reverse().join()
-   Use an if statement to compare the two
-   Return true/false depending on finding 
+   Reverse the input string
+
+   if the input is the same as returned input
+   return true
+   else
+   return false
 */
 
 /*
+Description:
   The solution is to ensure every input is strictly lowercase, then using a variable that holds the reversed string input.
   Then, comparing the string and reversed version with if statements. If they match return true, otherwise false
 */
